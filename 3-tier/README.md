@@ -73,5 +73,6 @@ Caching is a mechanism to store frequently accessed data in a data store tempora
 
 
 # Note:
-We can use the cache for Database. [Caching](https://azure.microsoft.com/en-in/services/cache/#overview) Due to limited time, I am unable to put all these techniques in code. However, I am aware on these best practices.
+We can use the cache for Database. [Caching](https://azure.microsoft.com/en-in/services/cache/#overview)
+Due to limited time, I am unable to put all these techniques in code. However, I am aware on these best practices.
 

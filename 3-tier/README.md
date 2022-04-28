@@ -25,6 +25,7 @@ Keep main and variable files different for each component
 
 We can use this method authencate to azure before we start work on terraform script. Due to time constraint I have not implemeted this in my script.
 
+
 ## Terraform Modules
 
 A module is a container for multiple resources that are used together. Modules can be used to create lightweight abstractions, so that you can describe your infrastructure in terms of its architecture, rather than directly in terms of physical objects.
@@ -63,5 +64,14 @@ validates the configuration files in a directory, referring only to the configur
 
 ### terraform apply
 
+
+
 used to apply the changes required to reach the desired state of the configuration
+
+# Azure Cache for Redis
+Caching is a mechanism to store frequently accessed data in a data store temporarily and retrieve this data for subsequent requests instead of extracting it from the original data source. This process improves the performance and availability of an application. Reading data from the database may be slower if it needs to execute complex queries.
+
+
+# Note:
+We can use the cache for Database. [Caching](https://azure.microsoft.com/en-in/services/cache/#overview) Due to limited time, I am unable to put all these techniques in code. However, I am aware on these best practices.
 

@@ -10,4 +10,4 @@ Following is one liner code to access the IDMS info
 
 * Invoke-RestMethod -Headers @{"Metadata"="true"} -Method GET -NoProxy -Uri "http://169.254.169.254/metadata/instance?api-version=2021-02-01" | ConvertTo-Json -Depth 64
 
-or else use the ps script from the repo, both gives the same result. However, ps script is structured and be reused.
+or else use the ps script from the repo, both gives the same result. However, ps script is structured and can be reused.
